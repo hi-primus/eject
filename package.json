@@ -1,0 +1,21 @@
+{
+  "name": "eject-browser",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0",
+    "vitest": "^0.28.5"
+  },
+  "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.21.0",
+    "knex": "^2.4.2"
+  }
+}
